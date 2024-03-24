@@ -13,7 +13,7 @@ The `.env` file included in the project is already configured with defaults to r
 `DB_USERNAME`: Database Username (default="postgres")
 `DB_PASSWORD`: Database Password; used to create a create credentials in the container (default="dna")
 
-### Running the Service
+### Execution
 Run the following command:
 ```
 docker compose up
@@ -39,7 +39,7 @@ The service is implemented in Python + PostgreSQL using the following frameworks
 * SQLAlchemy - Python database development framework (SQLAlchemy Core is used exclusively in this PoC)
 * Pydantic - Python data modeling and validation library
 
-### ER Diagram
+### Entity-Relationship Diagram
 ![ER Diagram](./erd.png)
 
 ## Considerations
