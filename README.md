@@ -8,10 +8,10 @@ You will need `docker` to spin up service locally.
 
 ### Setup
 The `.env` file included in the project is already configured with defaults to run the service locally. The environment variables include the following:
-`DB_HOST`: Database Host (default="db")
-`DB_PORT`: Database Port (default="5432")
-`DB_USERNAME`: Database Username (default="postgres")
-`DB_PASSWORD`: Database Password; used to create a create credentials in the container (default="dna")
+* `DB_HOST`: Database Host (default="db")
+* `DB_PORT`: Database Port (default="5432")
+* `DB_USERNAME`: Database Username (default="postgres")
+* `DB_PASSWORD`: Database Password; used to create a create credentials in the container (default="dna")
 
 ### Execution
 Run the following command:
